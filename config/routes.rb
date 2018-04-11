@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'new2', to: 'pages#new2'
 
   resources :blogs do
     member do
